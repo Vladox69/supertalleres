@@ -84,11 +84,12 @@ img{
 .header__texto{
     text-align: center;
     color: var(--blanco);
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .logo{
-    width:60rem;
+    padding: 3rem;
+    width:30rem;
 }
 
 @media (min-width: 768px) {
@@ -113,3 +114,8 @@ img{
     color: var(--blanco);
 }
 
+
+.footer{
+    background-color: var(--negro);
+    padding: 3rem 0 ;
+}
