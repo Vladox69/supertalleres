@@ -114,8 +114,50 @@ img{
     color: var(--blanco);
 }
 
+/*Nosotros**/
+
+@media (min-width: 768px) {
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.sobre-nosotros__imagen{
+    margin-bottom: 2rem;
+}
+
+
+/*Trabajos**/
+@media (min-width: 768px) {
+    .contenedor-trabajos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.trabajos-seccion__imagen{
+    padding-top: 2rem;
+}
+
+.trabajos-seccion__imagen img{
+    width: 30rem;
+    height: 30rem;
+}
+
+
+.trabajos-seccion__texto{
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 .footer{
     background-color: var(--negro);
     padding: 3rem 0 ;
+}
+
+.footer__texto{
+    color: var(--blanco);
 }
