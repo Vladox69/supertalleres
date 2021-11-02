@@ -153,6 +153,12 @@ img{
     font-weight: bold;
 }
 
+.trabajos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
 .footer{
     background-color: var(--negro);
     padding: 3rem 0 ;
