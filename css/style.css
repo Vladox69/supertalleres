@@ -159,6 +159,12 @@ img{
     gap: 2rem;
 }
 
+iframe{
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
 .footer{
     background-color: var(--negro);
     padding: 3rem 0 ;
